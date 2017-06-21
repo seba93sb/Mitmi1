@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">nuevo evento</string>
+    <string name="H_nombre">Ej:Ayudantia</string>
+    <string name="H_fecha">mm/dd/aa</string>
+    <string name="H_hora">17:30</string>
+    <string name="H_cupos">3-50</string>
+    <string name="TV_nombre">Nombre evento</string>
+    <string name="TV_hora">Hora</string>
+    <string name="TV_fecha">Fecha</string>
+    <string name="TV_cupos">Cupos</string>
+    <string name="TV_cupos2">Cupos disponibles</string>
+    <string name="hola">Eventos disponibles</string>
+    <string name="descripcion">Información acerca del evento</string>
+    <string name="TV_descripcion">Descripción</string>
+    <string name="boton1">Crear evento</string>
+    <string name="boton2">Mostrar eventos</string>
+    <string name="guardar">Guardar</string>
+    <string name="registrarme">Registrarme</string>
+</resources>

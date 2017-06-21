@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bruno.eventoreal.registro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints,UselessParent">
+
+        <TextView
+            android:id="@+id/TV_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:text="@string/TV_nombre"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/ET_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:ems="10"
+            android:hint="@string/H_nombre"
+            android:textSize="16sp"
+            android:inputType="textPersonName"
+            tools:ignore="TextViewEdits" />
+
+        <TextView
+            android:id="@+id/TV_fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:text="@string/TV_fecha"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/ET_fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:ems="10"
+            android:hint="@string/H_fecha"
+            android:textSize="16sp"
+            android:inputType="text|date"
+            tools:ignore="TextViewEdits" />
+
+        <TextView
+            android:id="@+id/TV_hora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:text="@string/TV_hora"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/ET_hora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:ems="10"
+            android:hint="@string/H_hora"
+            android:textSize="16sp"
+            android:inputType="text|time"
+            tools:ignore="TextViewEdits" />
+
+        <TextView
+            android:id="@+id/TV_cupos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:text="@string/TV_cupos"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/ET_cupos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:ems="10"
+            android:textSize="16sp"
+            android:inputType="text|number"
+            tools:ignore="TextViewEdits" />
+
+        <TextView
+            android:id="@+id/TV_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:text="@string/TV_descripcion"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/ET_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:ems="10"
+            android:textSize="16sp"
+            android:hint="@string/descripcion" />
+
+
+        <Button
+            android:id="@+id/bt_registro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:onClick="eventoOnClick"
+            android:text="@string/registrarme"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

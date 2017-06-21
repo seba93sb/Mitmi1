@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Mitmi</string>
+    <string name="LogInstring1">Bienvenido a conectarte</string>
+    <string name="LogInstring2">¿Olvidaste tu contraseña?</string>
+    <string name="LogInButton">Log In</string>
+</resources>

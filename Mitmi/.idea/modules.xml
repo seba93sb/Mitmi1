@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Cuerpo/Cuerpo.iml" filepath="$PROJECT_DIR$/Cuerpo/Cuerpo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cuerpo-debug/Cuerpo-debug.iml" filepath="$PROJECT_DIR$/Cuerpo-debug/Cuerpo-debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eventos/Eventos.iml" filepath="$PROJECT_DIR$/Eventos/Eventos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eventos-debug/Eventos-debug.iml" filepath="$PROJECT_DIR$/Eventos-debug/Eventos-debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mitmi.iml" filepath="$PROJECT_DIR$/Mitmi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
